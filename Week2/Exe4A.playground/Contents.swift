@@ -1,5 +1,5 @@
 import UIKit
 
-var greeting = "Playground"
-let t = type(of: greeting)
-print(t)
+let number = 90
+let numberString = String(number)
+print("The number is \(number)")
