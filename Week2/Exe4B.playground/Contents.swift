@@ -1,8 +1,10 @@
 import UIKit
 
 let numString = "15.89"
-if let num = Double(numString){
-    print("The number is \(num)")
-}else{
-    print("Invalid number")
+if let number = Double(numString){
+    print("The number is \(number)")
+    
+    let t = type(of: number)
+    
+    print(t)
 }
