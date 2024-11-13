@@ -1,4 +1,5 @@
 import UIKit
 
-let num:Int = 22
-print("The number is \(num)")
+var greeting = "Playground"
+let t = type(of: greeting)
+print(t)
