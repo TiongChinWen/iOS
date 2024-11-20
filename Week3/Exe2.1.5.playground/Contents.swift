@@ -1,14 +1,18 @@
 import UIKit
 
-let isUsername = false
-let isPassword = true
+let username = "tcw"
+let password = 123456
+var inputUsername = "gsdyusgd"
+var inputPassword = 123456
 
-if isUsername && isPassword{
-    print("Login successful!")
-}
-else if isPassword{
-    print("Invalid username")
-}
-else if isUsername{
-    print("Invalid password")
-}
+if inputUsername == username{
+    if inputPassword == password{
+        print("Login successful!")
+    }
+    else{
+        print("Invalid password")
+    }
+}else{
+        print("Invalid username")
+    }
+
