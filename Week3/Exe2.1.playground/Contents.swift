@@ -1,3 +1,5 @@
 import UIKit
 
-var greeting = "Hello, playground"
+let isOnline = true
+let online = isOnline ? "User is online" : "User is offline"
+print(online)
