@@ -49,7 +49,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .background(.white)
                     .frame(width:300, height: 100.0)
-                
+                    .foregroundColor(Color("first"))
                     
                 Spacer()
                 HStack{
